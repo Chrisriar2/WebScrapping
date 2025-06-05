@@ -1,9 +1,9 @@
 import mysql.connector
 
 conexion = mysql.connector.connect(
-    host="189.190.30.219",
-    user="Paukars",
-    password="SoyPaukars",
+    host="", #insert your server's IP
+    user="", #select a database's user
+    password=" ",
     database="web_scrapping"
 )
 
